@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISRO - Indian Space Research Organisation</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="shortcut icon" href="ASSETS/logo.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header>
+    <div class="header-left">
+      <img src="ASSETS/logo.svg" alt="ISRO Logo" class="logo" />
+    </div>
+    <nav class="header-center">
+      <ul class="nav-center">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="missions.html">Missions</a></li>
+        <li><a href="satellites.html">Satellites</a></li>
+        <li><a href="rockets.html">Rockets</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <input type="text" class="search-input" placeholder="Search..." />
+      <select class="language-select">
+        <option value="en">EN</option>
+        <option value="hi">हिंदी</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- ========== MISSION HIGHLIGHT SECTION ========== -->
+  <section class="highlight-section">
+    <div class="highlight-left">
+  <div class="mission-container">
+    <input type="radio" name="thumb" id="thumb1" checked hidden />
+    <label for="thumb1" class="thumb">
+      <img src="ASSETS/gaganyaan-india-manned-space-module-hg.jpg" alt="Gaganyaan" />
+    </label>
+
+    <input type="radio" name="thumb" id="thumb2" hidden />
+    <label for="thumb2" class="thumb">
+      <img src="ASSETS/cy.png" alt="Chandrayaan" />
+    </label>
+
+    <input type="radio" name="thumb" id="thumb3" hidden />
+    <label for="thumb3" class="thumb">
+      <img src="ASSETS/my.png" alt="Mangalyaan" />
+    </label>
+
+    <div class="mission-info">
+      <div class="mission-content" id="info1">
+        <h1>GAGANYAAN MISSION</h1>
+        <p>“In-flight Abort Demonstration of Crew Escape System (CES)” at Mach number 1.2 with the newly developed Test Vehicle followed by Crew Module separation & safe recovery.</p>
+        <a href="#" class="learn-btn">LEARN MORE</a>
+      </div>
+
+      <div class="mission-content" id="info2">
+        <h1>CHANDRAYAAN-3</h1>
+        <p>India's third lunar mission that successfully soft-landed on the Moon's south pole, making India the first country to achieve this feat.</p>
+        <a href="#" class="learn-btn">LEARN MORE</a>
+      </div>
+
+      <div class="mission-content" id="info3">
+        <h1>MANGALYAAN Mission</h1>
+        <p>India's first interplanetary mission to Mars. Launched in 2013, it made India the first Asian nation to reach Martian orbit and the first globally to do so on its first attempt.</p>
+        <a href="#" class="learn-btn">LEARN MORE</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- News -->
+    <div class="highlight-right">
+      <h2>LATEST NEWS</h2>
+      <div class="news-scroll">
+        <ul class="news-list">
+          <li>Kazakhstan Vice Minister visited ISRO/DOS Centres and met the Chairman.</li>
+          <li>Capacity Building Programme on "Geospatial Technologies" launched by Dr. Jitendra Singh.</li>
+          <li>Announcement of Opportunity for Space-Based Disaster Management Support.</li>
+          <li>Ambassador of France met ISRO Secretary.</li>
+          <li>ISRO celebrates diamond jubilee of first sounding rocket launch.</li>
+          <li>ISRO to launch Aditya-L1 for solar observation.</li>
+          <li>New record: ISRO launches 104 satellites in single mission.</li>
+          <li>ISRO signs MoU with Australian Space Agency.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+ <!-- ========== ABOUT ISRO QUICK OVERVIEW ========== -->
+<section class="section glass about-overview">
+  <h2>About ISRO</h2>
+  <p>
+    The Indian Space Research Organisation (ISRO), founded in <strong>1969</strong>, is the space agency of the Government of India, responsible for national space missions, satellite launches, and planetary exploration.
+  </p>
+
+  <p>
+    With a vision to harness space technology for national development and scientific advancement, ISRO has become a global symbol of innovation, affordability, and excellence in space missions.
+  </p>
+
+  <div class="about-highlights">
+    <div class="highlight-box">
+      <h3>🎯 Mission</h3>
+      <p>To apply space technology for national growth, resource management, disaster monitoring, and communication services while exploring deep space frontiers.</p>
+    </div>
+    <div class="highlight-box">
+      <h3>🔭 Vision</h3>
+      <p>To make India a world leader in space science, satellite applications, and interplanetary missions that benefit all of humanity.</p>
+    </div>
+    <div class="highlight-box">
+      <h3>🚀 Achievements</h3>
+      <p>From Chandrayaan and Mangalyaan to launching 100+ satellites in one mission, ISRO continues to break records and inspire generations.</p>
+    </div>
+  </div>
+
+  <a href="about.html" class="btn-glass">Read More About ISRO →</a>
+</section>
+
+
+
+ <!-- ========== INTERACTIVE TIMELINE CONTAINER (Vertical Timeline) ========== -->
+<section id="timeline-section" class="timeline-wrapper">
+  <h2 class="timeline-heading">Timeline</h2>
+
+  <!-- Timeline Vertical Line -->
+  <div class="timeline-line">
+    <!-- Timeline Entry -->
+    <div class="timeline-item" id="year1962">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">1962</div>
+      <div class="timeline-content">
+        <img src="ASSETS/vik.jpg" alt="INCOSPAR" />
+        <div class="text">
+          <h3>Formation of INCOSPAR</h3>
+          <p>INCOSPAR was formed under Dr. Vikram Sarabhai, laying the foundation for India's space program.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year1969">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">1969</div>
+      <div class="timeline-content">
+        <img src="ASSETS/logo.svg" alt="ISRO Founded" />
+        <div class="text">
+          <h3>ISRO Founded</h3>
+          <p>ISRO was established on 15 August 1969, replacing INCOSPAR.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year1975">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">1975</div>
+      <div class="timeline-content">
+        <img src="ASSETS/arya.jpg" alt="Aryabhata" />
+        <div class="text">
+          <h3>Aryabhata Launch</h3>
+          <p>India launched its first satellite, Aryabhata, marking a major milestone in its space journey.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year2008">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2008</div>
+      <div class="timeline-content">
+        <img src="ASSETS/chandrayaan-1_pillars.jpg" alt="Chandrayaan-1" />
+        <div class="text">
+          <h3>Chandrayaan-1</h3>
+          <p>India's first lunar mission which discovered water molecules on the moon's surface.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year2013">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2013</div>
+      <div class="timeline-content">
+        <img src="ASSETS/my.png" alt="Mangalyaan" />
+        <div class="text">
+          <h3>Mangalyaan (MOM)</h3>
+          <p>India's Mars Orbiter Mission made India the first Asian nation to reach Mars orbit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year2023">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2023</div>
+      <div class="timeline-content">
+        <img src="ASSETS/chandrayaan_3_lander_rover_isro.jpg" alt="Chandrayaan-3" />
+        <div class="text">
+          <h3>Chandrayaan-3</h3>
+          <p>First successful soft landing on the Moon's south pole by India.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" id="year2024">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2024</div>
+      <div class="timeline-content">
+        <img src="ASSETS/dock.png" alt="SpaDeX" />
+        <div class="text">
+          <h3>SpaDeX Docking</h3>
+          <p>India achieved its first successful in-space satellite docking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- ========== FOOTER ========== -->
+<footer class="footer-section">
+  <div class="footer-container">
+    <!-- About ISRO -->
+    <div class="footer-col about">
+      <h3>Indian Space Research Organisation</h3>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="missions.html">Missions</a></li>
+        <li><a href="satellites.html">Satellites</a></li>
+        <li><a href="rockets.html">Rockets</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:info@isro.gov.in">info@isro.gov.in</a></p>
+      <p>Phone: +91-80-2217 2699</p>
+      <p>ISRO Headquarters, Bengaluru, India</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-column social">
+      <img src="ASSETS/emb.png" alt="National Emblem" height="100px">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><img src="ASSETS/yt.svg" alt="YouTube"></a>
+          <a href="#"><img src="ASSETS/x.svg" alt="Twitter"></a>
+          <a href="#"><img src="ASSETS/fb.svg" alt="Facebook"></a>
+          <a href="#"><img src="ASSETS/ig.svg" alt="Instagram"></a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Bottom Footer -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 ISRO. All Rights Reserved. Designed by Vikram.devx</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
